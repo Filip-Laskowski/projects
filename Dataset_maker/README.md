@@ -48,7 +48,7 @@ Currently, the application offers the following functionalities:
 
 - **Search for images:** Users can input keywords to fetch related images.
 - **Responsive grid layout:** The images are displayed in a grid that adapts to the user's screen size, providing a comfortable browsing experience.
-- **Interactive image curation:** Users can download or remove images. When an image is removed, it gets replaced by a new one without repetition, allowing for a dynamic and engaging user experience.
+- **Interactive image curation:** Users can download or remove[not yet fully functional] images. When an image is removed, it gets replaced by a new one without repetition, allowing for a dynamic and engaging user experience.
 
 ### Future Work
 
