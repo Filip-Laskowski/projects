@@ -1,0 +1,67 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.inputBox {
+  flex-grow: 1;  
+  margin: 0px; 
+  height: 40px;
+  border-radius: 20px 0 0 20px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  outline: none;
+  caret-color: black;
+  max-width: 90%;
+}
+
+.formContainer {
+  flex:1;
+  display: flex; 
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid #ccc;
+}
+
+.logo {
+  height: 80px;
+  margin: 0px 40px;
+}
+
+.searchForm {
+  position: relative;
+  display: flex;
+  flex: 1
+}
+
+.submitButton {
+  height: 40px;
+  width: 80px;
+  border-radius: 0 20px 20px 0;
+  border: none;
+  background-color: #ccc;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.submitButton:hover {
+  transform: scale(1.05);
+  background-color: #ccc;
+}
+
+.send {
+  margin: auto;
+  height: 35px;
+}
+
+.folder{
+  height:40px;
+  margin:0px 20px 0px 2%;
+  cursor:pointer;
+}
+
